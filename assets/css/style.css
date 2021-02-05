@@ -118,5 +118,4 @@ nav{
     background-color: green;
     z-index: -1;
     clip-path:circle(680px at right 800px);
-    visibility: hidden;
 }
