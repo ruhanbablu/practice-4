@@ -26,7 +26,7 @@ nav{
 }
 .menu ul li a{
     display: inline-block;
-    padding:0 30px;
+    padding:0 20px;
     color: #2d3436;
     transition: .3s;
 }
@@ -92,6 +92,10 @@ nav{
 .footer-img img:hover{
     transform: translateY(-20px);
 }
+.footer-img img:hover .red{
+    visibility: visible;
+}
+
 .social-icon{
     position: absolute;
     right: 50px;
@@ -105,7 +109,7 @@ nav{
     padding: 8px;
     filter: invert(1);
 }
-.color{
+.green{
     position: absolute;
     top: 0%;
     right: 0%;
@@ -114,4 +118,5 @@ nav{
     background-color: green;
     z-index: -1;
     clip-path:circle(680px at right 800px);
+    visibility: hidden;
 }
